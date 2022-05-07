@@ -1,0 +1,165 @@
+
+/* nav  */
+
+.fullpage{
+    height: 100vh;
+    width: 100%;
+   /*  border: 1px groove red; */
+}
+
+.conten{
+    
+    
+    height: 80%;
+    width: 100%;
+    background-color: whitesmoke;
+    /* border: 1px groove red; */
+    
+}
+
+nav i{
+    padding: 10px;
+}
+
+nav ul{
+    margin-left: 500px;
+}
+
+nav img{
+    width:40px;
+}
+
+.nav{
+    height: 10%;
+    width: 100%;
+    /* border: 1px groove orange; */
+}
+/* nav ends */
+
+.lef{
+    width: 15%;
+    height: 600px;
+   /*  border: 1px solid grey; */
+    float: left;
+  }
+
+  .middl{
+      width: 40%;
+     /*  border: 1px solid grey; */
+      height: 150%;
+      float: left;
+     /*  background-color: whitesmoke; */
+  }
+
+  .righ{
+    width: 29%;
+    height: 800px;
+/*     border: 1px solid grey; */
+    float: left;
+   }
+
+   .jobRecomendations{
+       width: 80%;
+       height: 880px;
+       border: 0.1px solid grey;
+       background-color: white;
+       margin-left: 60px;
+       margin-top: 10px;
+       border-radius: 20px;
+       display:block;
+       padding-top:30px;
+   }
+ .job1{
+     width: 80%;
+     height: 25%;
+     border: 1px solid grey;
+     border-radius: 20px;
+     margin:  40px 50px;
+   
+ }
+
+ .logoorg{
+    height: 55px;
+    width: 60px;
+    /* border: 1px solid blue; */
+    border-radius: 50%;
+    margin: 10px 10px;
+    margin-left: 20px;
+    float: left;
+}
+
+.logoorg img{
+    height: 55px;
+    width: 60px;
+    /* border: 1px solid green; */
+    border-radius: 50%;
+   
+    
+   
+
+}
+ 
+.jobDesc{
+    padding: 10px;
+    
+    float: left;
+}
+
+.jobDesc p{
+    padding: -30px;
+}
+
+.righ .linkedinnews{
+    height: 40%;
+    width: 80%;
+    /* border: 1px solid grey; */
+    border-radius: 30px;
+    margin:  50px -8px;
+}
+
+.righ .linkedinnews li{
+    padding: 10px;
+}
+
+
+
+.lef  .managemynetwork{
+    width: 60%;
+    height: 70%;
+    /* border: 1px solid grey; */
+    border-radius: 10px;
+    margin-left: 120px;
+    /* margin-right:-20px; */
+    margin-top: 40px;
+
+}
+
+.lef  .managemynetwork ul{
+ margin-top: 10px;
+ margin-left: 10px; 
+ list-style-type: none;
+ padding: 40px;
+
+color: black;
+}
+
+.lef  .managemynetwork ul li{
+    
+    padding: 6px;
+}
+
+.lef  .managemynetwork strong{
+    margin-top: 100px;
+    color: black;
+  
+}
+
+.career{
+    width: 500px;
+    margin-left: 60px;
+    margin-top: 60px;
+}
+
+#female{
+    width: 300px;
+}

@@ -1,0 +1,208 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Add icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!--CSS-->
+    <link rel="stylesheet" href="me.css">
+    <title>Me</title>
+</head>
+
+<body>
+
+    <div class="nav">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class=" container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="linkk.png">
+                </a>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-primary" type="submit">Search</button>
+                </form>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="gethomepage.html">
+
+                                <i class="fa-solid fa-house"></i>
+                                Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="mynetwork.html"><i
+                                    class="fa-solid fa-people-group"></i>network</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="job.html"><i class="fa-solid fa-suitcase"></i>jobs</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link active" href="notification.html"><i
+                                    class="fa-solid fa-bell"></i>notification</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="message.html"><i class="fa-solid fa-message"></i>
+                                messages</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="me.html"><i class="fa-solid fa-user"></i>me</a>
+                        </li>
+
+
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+    </div>
+
+
+    <div class="flex-container">
+        <div class="flex-item-left">
+            <div class="box1">
+                <div class="backgroundimg">
+
+                </div>
+                <div class="profilepic">
+                    <img src="mantu.png">
+                </div>
+                <h2>Harshpreet Singh</h2>
+                <p> Student at PCTE group of Institutes, Jhande</p>
+                <p>Jagraon, Punjab, India</p>
+                <p style="color: blue">50 connections</p>
+                <button type="button" class="btn btn-primary">Open to</button>
+                <button type="button" class="btn btn-outline-secondary">more</button>
+
+            </div>
+
+            <div class="box2">
+                <h4>Education</h4>
+                <div class="pctelogo">
+                    <img src="pcte.png">
+
+                </div>
+                <strong>PCTE Group of Institutes, ludhiana</strong>
+                <p>BCA, Front End Developer</p>
+                <p>2020-2023</p>
+            </div>
+
+            <div class="box3">
+
+                <div class="tab">
+                    <button class="tablinks" onclick="openCity(event, 'London')">Influencers</button>
+                    <button class="tablinks" onclick="openCity(event, 'Paris')">Companies</button>
+                    <button class="tablinks" onclick="openCity(event, 'Tokyo')">Groups</button>
+                </div>
+
+                <!-- Tab content -->
+                <div id="London" class="tabcontent">
+                    <img src="harshit.png">
+                    <strong>Ankur Warikoo</strong>
+                    <p>Founder nearbuy.com</p>
+                </div>
+
+                <div id="Paris" class="tabcontent">
+                    <img src="microsoft.png" id="microsoft">
+                    <strong>Microsoft</strong>
+                    <p>Computer Software, Redmond, Washington.</p>
+                </div>
+
+                <div id="Tokyo" class="tabcontent">
+                    <img src="snake.png" id="snake">
+                    <strong>Python Developers Community</strong>
+                    <p>99999999 followers</p>
+                </div>
+
+            </div>
+        </div>
+        <div class="flex-item-right">
+
+            <div class="leaders">
+                <h4>People also viewed</h4>
+                <div class="profile1">
+                    <div class="circle">
+                        <img src="girl3.png">
+                    </div>
+                    <center>
+                        <strong>Diksha Sharma</strong>
+                        <p> Student at PCTE</p>
+                        <p>9 mutual Connections</p>
+                        <button type="button" class="btn btn-outline-primary">Connect</button>
+                    </center>
+                </div>
+
+                <div class="profile1">
+                    <div class="circle">
+                        <img src="harshit.png">
+                    </div>
+                    <center>
+                        <strong>Sonny Sangha</strong>
+                        <p> CEO of PAPA REACT</p>
+                        <p>4 mutual Connections</p>
+                        <button type="button" class="btn btn-outline-primary">Connect</button>
+                    </center>
+                </div>
+
+                <div class="profile1">
+                    <div class="circle">
+                        <img src="ravisingh.png">
+                    </div>
+                    <center>
+                        <strong>Ravi Singh Khalsa</strong>
+                        <p> CEO of khalsa Aid international</p>
+                        <p>4 mutual Connections</p>
+                        <button type="button" class="btn btn-outline-primary">Connect</button>
+                    </center>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- script for tabpane -->
+    <script>
+
+        function openCity(evt, cityName) {
+            // Declare all variables
+            var i, tabcontent, tablinks;
+
+            // Get all elements with class="tabcontent" and hide them
+            tabcontent = document.getElementsByClassName("tabcontent");
+            for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].style.display = "none";
+            }
+
+            // Get all elements with class="tablinks" and remove the class "active"
+            tablinks = document.getElementsByClassName("tablinks");
+            for (i = 0; i < tablinks.length; i++) {
+                tablinks[i].className = tablinks[i].className.replace(" active", "");
+            }
+
+            // Show the current tab, and add an "active" class to the button that opened the tab
+            document.getElementById(cityName).style.display = "block";
+            evt.currentTarget.className += " active";
+        }
+
+    </script>
+
+
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <!--FONT AWESOME-->
+    <script src="https://kit.fontawesome.com/737d41ff3b.js" crossorigin="anonymous"></script>
+
+</body>
+
+</html>

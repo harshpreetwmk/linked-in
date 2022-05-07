@@ -1,0 +1,173 @@
+/* nav  */
+
+.fullpage{
+    height: 100vh;
+    width: 100%;
+    background-color: whitesmoke;
+   /*  border: 1px groove red; */
+}
+
+#linkedinlogo{
+    margin-bottom: 15px;
+}
+
+nav i{
+    padding: 10px;
+ 
+}
+
+nav ul{
+    margin-left: 500px;
+}
+
+nav img{
+    width:40px;
+}
+
+.nav{
+    height: 10%;
+    width: 100%;
+    /* border: 1px groove orange; */
+}
+/* nav ends */
+
+.left{
+  width: 35%;
+  height: 1400px;
+ /*  border: 1px solid grey; */
+  background-color: whitesmoke;
+}
+
+.managemynetwork{
+    width: 60%;
+    height: 70%;
+    border: 1px solid grey;
+    border-radius: 10px;
+    margin-left: 120px;
+    /* margin-right:-20px; */
+    margin-top: 40px;
+
+}
+f
+.managemynetwork ul{
+ margin-top: 10px;
+ margin-left: 10px; 
+
+color: grey;
+}
+
+.managemynetwork ul li{
+    
+    padding: 6px;
+}
+
+.managemynetwork strong{
+    margin-top: 100px;
+    color: black;
+  
+}
+
+.right{
+ width: 65%;
+ height: 100v;
+/*  border: 1px solid grey; */
+ background-color: whitesmoke;
+}
+
+.right .industryleader{
+    width: 80%;
+    height: 700px;
+    /* border: 1px solid grey; */
+
+}
+
+.right .industryleader .profile1{
+    width: 30%;
+    height: 300px;
+    border: 1px solid grey;
+    float: left;
+    padding: 20px;
+    margin-top: 10px;
+    margin-left: 20px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.circle{
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    /* border: 1px solid grey; */
+    margin: 10px 50px;
+}
+
+.circle img{
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+   /*  border: 1px solid grey; */
+    
+}
+.left img{
+    width: 400px;
+    margin-top: 100px;
+    margin-left:70px;
+}
+
+.profile2{
+    width: 30%;
+    height: 300px;
+    border: 1px solid grey;
+    background-color: white;
+    float: left;
+    padding: 20px;
+    margin-top: 10px;
+    margin-left: 20px;
+    border-radius: 10px;
+
+}
+
+.profile3{
+    width: 30%;
+    height: 300px;
+    border: 1px solid grey;
+    background-color: white;
+    float: left;
+    padding: 20px;
+    margin-top: 10px;
+    margin-left: 20px;
+    border-radius: 10px;
+
+}
+
+.right .inludhiana{
+    width: 80%;
+    height: 630px;
+  /*   border: 1px solid grey; */
+
+}
+
+.inludhiana .profile4{
+    width: 30%;
+    height: 300px;
+    border: 1px solid grey;
+    background-color: white;
+    float: left;
+    padding: 20px;
+    margin-top: 10px;
+    margin-left: 20px;
+    border-radius: 10px;
+
+
+}
+
+.inludhiana .profile5{
+    width: 30%;
+    height: 300px;
+    border: 1px solid grey;
+    float: left;
+    padding: 20px;
+    margin-top: 10px;
+    margin-left: 20px;
+    border-radius: 10px;
+}

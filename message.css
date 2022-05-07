@@ -1,0 +1,154 @@
+
+*{
+    margin: 0;
+    padding:0;
+
+}
+nav i{
+    padding: 10px;
+}
+
+nav ul{
+    margin-left: 500px;
+}
+
+nav img{
+    width:40px;
+}
+
+.fullpage{
+    height: 100vh;
+    width: 100%;
+   /*  border: 1px groove red; */
+}
+
+.entirepart{
+    width: 100%;
+    background-color: whitesmoke;
+}
+.nav{
+    height: 10%;
+    width: 100%;
+    /* border: 1px groove orange; */
+}
+
+.container{
+    margin-top: 30px;
+    background-color: whitesmoke;
+    height: 100%;
+    width: 100%;
+   
+}
+
+
+.content{
+    
+    
+    height: 80%;
+    width: 100%;
+    /* border: 1px groove red; */
+    
+}
+
+.box{
+    width: 400px;
+    height: 80%;
+    border: 1px solid grey;
+    float: left;
+    margin-left: 145px;
+    border-radius: 40px;
+    background-color: white;
+}
+
+.heading{
+    text-align: center;
+  font-weight: bolder;
+  margin-top: 10px;
+}
+
+.second{
+    width: 710px;
+    height: 80%;
+    border: 1px solid grey;
+   /*  float: left; */
+    margin-left: 40px;
+}
+
+.msg{
+    width: 90%;
+    height: 14%;
+    border: 1px solid grey;
+    margin: 10px auto;
+    border-radius: 30px;
+    background-color: white;
+}
+
+.msg p{
+    margin-left: 80px;
+    margin-top: 10px;
+}
+
+.img{
+    width: 60px;
+    float: left;
+    margin-left: 10px;
+    margin-top: 8px;
+}
+
+.particular{
+    margin-top:20px;
+
+    
+} 
+.particularmsg{
+ margin-top: 20px;
+ bac
+}
+
+.particularmsg img{
+    margin-
+}
+
+.hithere{
+    height: 18%;
+    width: 50%;
+    border: 1px solid grey;
+    border-radius: 20px;
+    padding: 40px 0 0 10px;
+    text-align: center; 
+    /* float: left; */
+    margin-left: 100px;
+    margin-top: 20px;
+    background-color: white;
+
+}
+
+.typeamsg{
+    height:10%;
+    width: 85%;
+    /* border: 1px solid grey; */
+    border-radius: 30px;
+    /* margin-top: 100px; */
+    /* background-color: red; */
+    float: left;
+    margin-top: 270px;
+   
+    margin-right: auto;
+    margin-left: 25px;
+}
+
+#writeamsg{
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+    border: 1px solid grey;
+
+}
+
+.typenicon i{
+  margin-top: 284px;
+  margin-left: 20px;
+}
+.typenicon{
+    
+}

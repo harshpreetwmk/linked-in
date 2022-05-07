@@ -1,0 +1,233 @@
+nav i{
+    padding: 10px;
+}
+
+nav ul{
+    margin-left: 500px;
+}
+
+nav img{
+    width:40px;
+}
+
+.fullpage{
+    height: 100vh;
+    width: 100%;
+    background-color:whitesmoke;
+   /*  border: 1px groove red; */
+}
+
+.nav{
+    height: 10%;
+    width: 100%;
+    /* border: 1px groove orange; */
+}
+
+
+.box1{
+    width: 820px;
+    height: 500px;
+    border: 1px solid grey;
+    background-color: white;
+    margin: 40px;
+    margin-left: 180px;
+}
+
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex-item-left{
+   flex: 70%;
+   background-color: whitesmoke;
+
+}
+
+.flex-item-right{
+    flex: 30%;
+    background-color: whitesmoke;
+ }
+
+ @media (max-width: 800px) {
+    .flex-item-right, .flex-item-left {
+      flex: 100%;
+    }
+  }
+ 
+ .backgroundimg{
+     background-color: lightsalmon;
+     height: 30%;
+     width: 100%;
+    
+ }
+
+ .profilepic{
+     width: 200px;
+     height: 200px;
+     border-radius: 50%;
+     /* background-color: aquamarine;  */ 
+     margin-top: -110px;  
+     margin-left: 40px;
+ }
+
+ .profilepic img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;  
+     
+   
+ }
+
+ .box1 h2{
+     margin-left: 40px;
+ }
+
+ .box1 p{
+    margin-left: 40px;
+}
+
+.box1 button{
+    margin-left: 40px;
+    
+}
+
+.box2{
+    padding-top: 5px;
+    width: 820px;
+    height: 150px;
+    border: 1px solid grey;
+    background-color: white;
+    margin: 40px;
+    margin-left: 180px;
+}
+
+.box2 h4{
+    margin-left: 40px;
+}
+
+.pctelogo{
+    height: 100px;
+    width: 100px;
+   /*  border: 1px solid grey; */
+    border-radius: 50%;
+    margin-left: 40px;
+    float:left;
+    margin-right: 30px;
+}
+
+.pctelogo img{
+    height: 100px;
+    width: 100px;
+   /*  border: 1px solid grey; */
+    border-radius: 50%;
+    
+    float:left;
+  
+}
+
+ .profile1{
+    width: 60%;
+    height: 300px;
+    border: 1px solid grey;
+    float: left;
+    padding: 20px;
+    margin-top: 10px;
+    margin-left: 20px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.circle{
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    /* border: 1px solid grey; */
+    margin: 10px 60px;
+}
+
+.circle img{
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+  /*   border: 1px solid grey; */
+    
+}
+.left img{
+    width: 400px;
+    margin-top: 100px;
+    margin-left:70px;
+}
+
+.leaders h4{
+    margin: 30px 0 0 50px;
+}
+
+
+/* tabpane */
+
+/* Style the tab */
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+  }
+  
+  /* Style the buttons that are used to open the tab content */
+  .tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+  }
+  
+  /* Change background color of buttons on hover */
+  .tab button:hover {
+    background-color: #ddd;
+  }
+  
+  /* Create an active/current tablink class */
+  .tab button.active {
+    background-color: #ccc;
+  }
+  
+  /* Style the tab content */
+  .tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+  }
+
+  /* tab pane ends */
+
+  .box3{
+ 
+    width: 820px;
+    height: 150px;
+   
+    background-color: white;
+    margin: 40px;
+    margin-left: 180px;
+}
+
+.tabcontent img{
+    border-radius: 50%;
+    width: 80px;
+    float: left;
+    margin-top: -14px;
+    margin-right: 10px;
+    margin-left: 40px;
+}
+
+#microsoft{
+    margin-top:0.2px;
+   /*  margin-bottom: 5px; */
+}
+
+#snake{
+    margin-top: 10px;
+}
